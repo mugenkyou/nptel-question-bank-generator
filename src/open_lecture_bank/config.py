@@ -51,7 +51,7 @@ class StudyOrderConfig(BaseModel):
 
 class AppConfig(BaseModel):
     """Master application configuration."""
-    project_name: str = "Open Lecture Bank"
+    project_name: str = "nptel-question-bank-generator"
     version: str = "0.1.0"
     ai_provider: str = Field(default="none")
     ai_api_key: Optional[str] = None

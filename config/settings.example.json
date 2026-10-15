@@ -1,5 +1,5 @@
 {
-  "project_name": "Open Lecture Bank",
+  "project_name": "nptel-question-bank-generator",
   "version": "0.1.0",
   "directories": {
     "input": "./data/input",

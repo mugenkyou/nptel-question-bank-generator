@@ -1,4 +1,4 @@
-# Open Lecture Bank (NPTEL Question Bank Generator)
+# nptel-question-bank-generator
 
 > **Universal open-source engine to transform educational lecture slide decks into structured, psychometrically validated MCQ question banks and learning roadmaps.**
 
@@ -40,7 +40,7 @@ Universities, NPTEL courses, and online educators produce thousands of lecture s
 ## 3. Repository Structure
 
 ```
-open-lecture-bank/
+nptel-question-bank-generator/
 ├── README.md               # Product overview, vision, and usage guide
 ├── LICENSE                 # Permissive MIT Open Source License
 ├── pyproject.toml          # PEP 517/518 build and packaging configuration

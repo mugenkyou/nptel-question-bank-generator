@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "open-lecture-bank"
+name = "nptel-question-bank-generator"
 version = "0.1.0"
 description = "Universal open-source tool to convert educational lecture PDFs into structured, psychometrically validated MCQ question banks and learning roadmaps."
 readme = "README.md"
@@ -52,6 +52,7 @@ dev = [
 ]
 
 [project.scripts]
+nptel-question-bank-generator = "open_lecture_bank.cli:main"
 open-lecture-bank = "open_lecture_bank.cli:main"
 
 [tool.setuptools.packages.find]
