@@ -1,0 +1,38 @@
+{
+  "project_name": "Open Lecture Bank",
+  "version": "0.1.0",
+  "directories": {
+    "input": "./data/input",
+    "output": "./data/output",
+    "intermediate": "./data/intermediate",
+    "logs": "./logs"
+  },
+  "extraction": {
+    "char_threshold_per_page": 50,
+    "ocr_enabled": false,
+    "max_pages_per_pdf": 200,
+    "ignore_blank_slides": true
+  },
+  "generation": {
+    "questions_per_topic": 3,
+    "options_per_question": 4,
+    "target_difficulty_distribution": {
+      "easy": 0.25,
+      "medium": 0.50,
+      "hard": 0.25
+    },
+    "enable_distractor_parity_check": true,
+    "max_distractor_length_ratio": 1.5
+  },
+  "validation": {
+    "enforce_single_correct_answer": true,
+    "disallow_absurd_distractors": true,
+    "min_explanation_words": 15,
+    "check_page_bounds": true,
+    "similarity_threshold_duplicate_flag": 0.65
+  },
+  "study_order": {
+    "enforce_strict_dag": true,
+    "max_stages": 10
+  }
+}
